@@ -10,8 +10,9 @@ Implements the functioning of an E-commerce Website that performs various functi
 ### .Pagination
 ### .Cart
 ### .Static Files
-![Screenshot (196)](https://user-images.githubusercontent.com/112808009/198219444-c062fc37-47a3-43c3-adac-4ac31b6ca462.png)
-![Screenshot (197)](https://user-images.githubusercontent.com/112808009/198219523-a0c509b5-4a3e-441e-9e4c-e211c55bab2d.png)
-![Screenshot (193)](https://user-images.githubusercontent.com/112808009/198219460-386ada4c-4a70-4b41-8f24-61352bee798d.png)
-![Screenshot (195)](https://user-images.githubusercontent.com/112808009/198219502-4458ae3d-cf07-4683-8656-b06e5eb54289.png)
+![Screenshot (202)](https://user-images.githubusercontent.com/112808009/198314429-fe33051d-a0db-4c65-b8ea-d9b6fec49934.png)
+![Screenshot (206)](https://user-images.githubusercontent.com/112808009/198314461-f8e8a397-64d1-4678-9904-10dddf8aeac7.png)
+![Screenshot (207)](https://user-images.githubusercontent.com/112808009/198314494-69b96e6d-1325-4eab-b076-eccfde3acf0a.png)
+![Screenshot (208)](https://user-images.githubusercontent.com/112808009/198314513-a04734a8-8d4e-44c7-b649-ad68c537af29.png)
+![Screenshot (209)](https://user-images.githubusercontent.com/112808009/198314533-ad1f7a02-d43e-4576-9ab2-4d424ce8d4d3.png)
 

@@ -1,7 +1,7 @@
 # Skart
 An complete e-commerce solution for your business. Start selling today using SKart .
 Implements the functioning of an E-commerce Website that performs various functions like sign up, logout, add to cart, products searching and much more.
-#Skart E-Commerce Features
+# Skart E-Commerce Features
 ###.Building an Django  Framework 
 ###.Real-time Search
 ###.Product attributes

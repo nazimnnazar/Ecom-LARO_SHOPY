@@ -31,3 +31,6 @@ def signin(request):
 def logoutuser(request):
     logout(request)
     return redirect('signin')
+
+def profile(request):
+    return render(request,'profile.html')

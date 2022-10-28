@@ -1,6 +1,20 @@
+{% load static %}
+<link rel="icon" type="image/x-icon" href="{% static 'codered/assets/favicon.ico' %}" />
+<!-- Bootstrap icons-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="{% static 'codered/css/styles.css' %}" rel="stylesheet" />
+<!-- person -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 <style>
     .hello-msg{
         font-size: 20px;
+        color: rgb(0, 0, 0);
+        margin-right:20px;  
+    }
+    .material-icons {
+        vertical-align:-1400%;
         color: rgb(0, 0, 0);
         margin-right:20px;  
     }
@@ -13,12 +27,16 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
             </ul>
+            <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'profile' %}">Profile</a></li>
+            </ul> -->
 
-            <span class="hello-msg">Hello {{request.user}}</span>
+            <!-- <span class="hello-msg">Hello {{request.user}}</span> -->
+            
+            <a href="{% url 'profile' %}" class="material-icons">person</a>
             <a href="{% url 'logout' %}" class="btn btn-outline-danger" role="button" aria-pressed="true">
                 Logout
             </a>
-
             <!-- cart================================================= -->
             <!-- <form class="d-flex">
                 <button class="btn btn-outline-dark" type="submit">
